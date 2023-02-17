@@ -1,0 +1,9 @@
+function showWords() {
+    let tableaux = ["Niger", "Niamey", "Sadore", "Codeloccol"];
+    for (let i = 0; i < tableaux.length; i++) {
+        console.log(tableaux[i]);
+    }
+}
+showWords();
+
+module.exports = showWords;
